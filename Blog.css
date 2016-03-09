@@ -1,7 +1,24 @@
 
-
-
-
+.blog-home {
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
+}
+header {
+  background-color: #000000;
+  border-bottom: 4px inset #ffe4c4;
+  color: #ff4040;
+  text-align: center;
+}
+header > .inner {
+  padding:1em 2em;
+}
+h1 {
+  font-size: 2em;
+}
+nav ul li {
+  display:inline;
+}
 .clearfix:after {
   content: "";
   visibility: hidden;
