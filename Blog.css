@@ -1,20 +1,24 @@
+body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul {
+  margin: 0;
+  padding: 0;
+}
 * {
   box-sizing: border-box;
 }
 
-.blog-home {
+body {
   width: 90%;
   margin: auto;
   font-family: sans-serif;
 }
 header {
-  background-color: #000000;
+  background-color: rgba(244, 186, 54, 0.62);
   border-bottom: 4px inset #ffe4c4;
-  color: #ff4040;
+  color: rgba(249, 76, 76, 0.98);
   text-align: center;
 }
 header > .inner {
-  padding:1em 2em;
+  padding:2em 2em;
 }
 h1 {
   font-size: 2em;
@@ -47,7 +51,7 @@ nav a:hover {
 }
 .subscribe {
   background-color: grey;
-  padding: 5px;
+  padding: 1em;
 }
 
 
@@ -58,11 +62,14 @@ nav a:hover {
 .sidebar {
   width: 33.33%;
   float: left;
-  padding:10px;
+  padding:1em;
 
 }
 .inner {
-  padding: 10px
+  padding: 1em;
+}
+#Mitsu {
+  width:30vw;
 }
 label {
   font-weight: bold;
