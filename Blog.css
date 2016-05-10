@@ -43,7 +43,7 @@ nav a {
 nav a:hover {
 	border-bottom: 3px solid #ff4040;
 }
-.featured h1, h2{
+.feature h1, h2{
 
   font-weight: 600;
   line-height: 1.3em;
