@@ -7,21 +7,24 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul {
 }
 
 body {
-  width: 90%;
   margin: auto;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 header {
-  background-color: rgba(244, 186, 54, 0.62);
+  background-color: #ffe4c4;
   border-bottom: 4px inset #ffe4c4;
   color: rgba(249, 76, 76, 0.98);
-  text-align: center;
+  max-width: 100vw;
 }
 header > .inner {
-  padding:2em 2em;
+  padding:1em 1em;
 }
 h1 {
   font-size: 2em;
+}
+#mitsu {
+  height:auto;
+  width:100%;
 }
 nav ul li {
   display:inline;
@@ -29,6 +32,7 @@ nav ul li {
 }
 nav {
   text-align:center;
+  max-width: 100vw;
 }
 nav a {
   color: #333333;
@@ -39,11 +43,15 @@ nav a {
 nav a:hover {
 	border-bottom: 3px solid #ff4040;
 }
+.featured h1, h2{
+
+  font-weight: 600;
+  line-height: 1.3em;
+}
 .clearfix:after {
   content: "";
   visibility: hidden;
-  display: block;
-  height: 0;
+  display: table;
   clear: both;
 }
 .subscribe ul li {
@@ -54,23 +62,26 @@ nav a:hover {
   padding: 1em;
 }
 
-
+@media (min-width: 32em) {
 .main {
   width: 66.66%;
   float: left;
 }
+}
 .sidebar {
-  width: 33.33%;
-  float: left;
   padding:1em;
 
+}
+@media (min-width: 32em) {
+.sidebar {
+  float: right;
+  width: 33.33%;
+}
 }
 .inner {
   padding: 1em;
 }
-#Mitsu {
-  width:30vw;
-}
+
 label {
   font-weight: bold;
   font-size: 1em;
