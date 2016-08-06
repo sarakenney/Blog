@@ -16,7 +16,7 @@ body {
 header {
   background-color: #ffe4c4;
   border-bottom: 4px inset #ffe4c4;
-  color: rgba(249, 76, 76, 0.98);
+  color: #333333;
 
 }
 header > .inner {
@@ -46,9 +46,9 @@ nav a {
   padding-bottom: 6px;
 }
 nav a:hover {
-	/*border-bottom: 3px solid #ffe4c4;*/
   color: #ffe4c4;
 }
+/*---------------feature article------------------*/
 .feature h1, h2{
 
   font-weight: 600;
@@ -60,6 +60,10 @@ nav a:hover {
   display: table;
   clear: both;
 }
+.inner {
+  padding: 1em;
+}
+/*--------------------subscribe form----------------*/
 .subscribe ul li {
   list-style: none;
 }
@@ -67,32 +71,38 @@ nav a:hover {
   background-color: grey;
   padding: 1em;
 }
-
+.sidebar {
+  padding:1em;
+}
+label {
+  font-weight: bold;
+  font-size: 1em;
+}
+/*-----------------------media queries--------------*/
 @media only screen and (min-width: 32em) {
 .main {
   width: 66.66%;
   float: left;
-}
-}
-.sidebar {
-  padding:1em;
-
 }
 @media only screen and (min-width: 32em) {
 .sidebar {
   float: right;
   width: 33.33%;
 }
-}
-.inner {
-  padding: 1em;
-}
+/*---------------------about page------------*/
+.portrait {
 
-label {
-  font-weight: bold;
-  font-size: 1em;
+
 }
+#self-portrait {
+  border-radius: 5px;
+  width: 10em;
+  float: left;
+  margin-right: 1em;
+}
+/*---------------------footer-----------------*/
+
 footer {
   clear: both
 }
-/*---------------------Forms-------------------*/
+/*---------------------Contact Form-------------------*/
