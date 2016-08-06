@@ -5,22 +5,46 @@
     <title>Sara's Betamore Blog Project</title>
     <link rel="stylesheet" type="text/css"  href="/css/blog.css"/>
     <link rel="stylesheet" type="text/css"  href="/blog/css/blog.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="./blog.js"></script>
   </head>
-  <body>
-    <h2> Contact Sara</h2>
-    <form action="https://formspree.io/saraa.kenney@gmail.com" method="post" autocomplete="on">
+  <body class="body-contact">
+    <nav class="clearfix">
+      <div class="inner clearfix">
+          <ul>
+            <li>
+              <a href="/about.html">About</a>
+            </li>
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="/archive">Archive</a>
+            </li>
+            <li>
+              <a href="/contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <header>
+
+    <header>
+    <div>
+      <h1> Contact Sara</h2>
+      <form action="https://formspree.io/saraa.kenney@gmail.com" method="post" autocomplete="on">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" placeholder="Your name" class="form-control"/>
+      </div>
       <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" placeholder="Your name" class="form-control"/>
-    </div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_mail" placeholder="Your email" class="form-control"/>
+      </div>
+      <div>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message" placeholder="Your message" class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn">Send</button>
+      </form>
     <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_mail" placeholder="Your email" class="form-control"/>
-    </div>
-    <div>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message" placeholder="Your message" class="form-control"></textarea>
-    </div>
-    <button type="submit" class="btn">Send</button>
-    </form>

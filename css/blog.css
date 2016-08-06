@@ -9,8 +9,9 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul {
 /*------------------body------------------*/
 
 body {
+  width: 80%;
   margin: auto;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 header {
   background-color: #ffe4c4;
@@ -23,6 +24,7 @@ header > .inner {
 }
 h1 {
   font-size: 2em;
+  font-family: 'Roboto', sans-serif;
 }
 #mitsu {
   height:auto;
