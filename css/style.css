@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul {
 /*------------------body------------------*/
 
 body {
-    width: 80%;
+
     margin: auto;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -72,40 +72,46 @@ nav a:hover {
 }
 .subscribe {
     background-color: grey;
-    padding: 1em;
+
 }
 .sidebar {
-    padding:1em;
+
 }
 label {
     font-weight: bold;
     font-size: 1em;
 }
-/*-----------------------media queries--------------*/
-@media only screen and (min-width: 32em) {
+/*-----------------------media queries for main and sidebar--------------*/
+/*@media only screen and (min-width: 32em) {
     .main {
         width: 66.66%;
         float: left;
     }
-    @media only screen and (min-width: 32em) {
-        .sidebar {
-            float: right;
-            width: 33.33%;
-        }
-        /*---------------------about page------------*/
-        .portrait {
+@media only screen and (min-width: 32em) {
+    .sidebar {
+        float: right;
+        width: 33.33%;
+    }
+}*/
+/*---------------------about page------------*/
+.portrait {
 
+}
+#self-portrait {
+    border-radius: 5px;
+    width: 10em;
+    float: left;
+    margin-right: 1em;
+}
+/*---------------------footer-----------------*/
 
-        }
-        #self-portrait {
-            border-radius: 5px;
-            width: 10em;
-            float: left;
-            margin-right: 1em;
-        }
-        /*---------------------footer-----------------*/
+footer {
+    clear: both
+}
+/*---------------------Contact Form-------------------*/
 
-        footer {
-            clear: both
-        }
-        /*---------------------Contact Form-------------------*/
+/*--------------------Overrides----------------------*/
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
